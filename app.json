@@ -16,8 +16,16 @@
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
         "required": true
-      },
     },
+    "HEROKU_APP_NAME": {
+      "description": "Nama App heroku, Nama App yang paling pertama di isi (liat paling atas)",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "Ambil Heroku API KEY mu disini » https://dashboard.heroku.com/account",
+      "required": true
+    },
+  }
     "addons": [
     {
     "plan": "heroku-postgresql",
