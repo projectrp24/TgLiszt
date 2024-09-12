@@ -1,0 +1,28 @@
+{
+    "name": "botloginstring",
+    "description": "login from string",
+    "logo": "https://telegra.ph/file/cb8285dc3b16f0bf244ad.jpg",
+    "keywords": [
+        "python3",
+        "telegram",
+        "session",
+        "stringbot",
+        "telegram-bot",
+        "pyrogram",
+        "telethon"
+    ],
+    "repository": "https://github.com/projectrp24/TgLiszt",
+    "env": {
+      "BOT_TOKEN": {
+        "description": "A Bot's token from Botfather",
+        "value": "",
+        "required": true
+      },
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          }
+      ],
+      "stack": "container"
+  }
